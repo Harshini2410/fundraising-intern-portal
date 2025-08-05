@@ -5,6 +5,17 @@ The portal allows interns to view their referral code, total donations raised, u
 
 ---
 
+| Login Page | Dashboard | Leaderboard |
+|------------|-----------|-------------|
+| ![Login](screenshots/login.png) | ![Dashboard](screenshots/dashboard.png) | ![Leaderboard](screenshots/leaderboard.png) |
+
+---
+## demo link
+
+front End: https://fundraising-intern-portal-olive.vercel.app/
+
+---
+
 ## Tech Stack
 
 - **Frontend:** React, React Router, Framer Motion  
