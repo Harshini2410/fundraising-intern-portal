@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# Fundraising Intern Portal
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my submission for the **Internship** task.  
+The portal allows interns to view their referral code, total donations raised, unlocked rewards, and check a leaderboard.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Tech Stack
 
-### `npm start`
+- **Frontend:** React, React Router, Framer Motion  
+- **Backend:** Node.js, Express  
+- **Styling:** Responsive CSS with custom fonts and textures  
+- **Avatar Generator:** Dicebear Avatars  
+- **Version Control:** Git & GitHub  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
 
-### `npm test`
+```
+fundraising-intern-portal/
+├── client/          # React Frontend
+│   ├── src/
+│   └── public/
+├── server/          # Node/Express Backend
+│   └── index.js
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## How to Run Locally
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the Repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/Harshini2410/fundraising-intern-portal.git
+cd fundraising-intern-portal
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. Start the Backend Server
 
-### `npm run eject`
+```bash
+cd server
+npm install
+node index.js
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+> Backend runs at: `http://localhost:5000`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Start the Frontend React App
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+cd ../client
+npm install
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> Frontend runs at: `http://localhost:3000`
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Dummy login page (only name required)
+- Personalized dashboard with:
+  - Intern name
+  - Referral code
+  - Total donations raised
+  - Rewards section
+  - Avatar display
+- Leaderboard page (dummy backend data)
+- Framer Motion animations for smooth UI
+- Mobile-first responsive layout
+- Logout button (clears localStorage session)
+- Minimal and clean UI with soft background texture
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Feedback
 
-### Analyzing the Bundle Size
+I really enjoyed building this project. I focused on:
+- Clean and modern user interface
+- Responsive and accessible layout
+- Simple animations for smoother user experience
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Thank you for this opportunity!
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Author
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Poornima Maharshini**  
+Mail Id:  [npoornimaharshini2003@gmail.com](mailto:npoornimaharshini2003@gmail.com)  
+GitHub :  [GitHub – Harshini2410](https://github.com/Harshini2410)
