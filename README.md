@@ -12,7 +12,8 @@ The portal allows interns to view their referral code, total donations raised, u
 ---
 ## demo link
 
-front End: https://fundraising-intern-portal-olive.vercel.app/
+Front End: https://fundraising-intern-portal-olive.vercel.app/
+Back End : https://fundraising-intern-portal-t78v.onrender.com/
 
 ---
 
@@ -95,12 +96,10 @@ I really enjoyed building this project. I focused on:
 - Responsive and accessible layout
 - Simple animations for smoother user experience
 
-Thank you for this opportunity!
-
 ---
 
 ## Author
 
-**Poornima Maharshini**  
+**Poornima harshini**  
 Mail Id:  [npoornimaharshini2003@gmail.com](mailto:npoornimaharshini2003@gmail.com)  
 GitHub :  [GitHub – Harshini2410](https://github.com/Harshini2410)
