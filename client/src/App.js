@@ -9,7 +9,7 @@ function Dashboard() {
   const [internData, setInternData] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:5000/api/data')
+    fetch('https://fundraising-intern-portal-t78v.onrender.com/api/data')
       .then((res) => res.json())
       .then((data) => {
         const nameFromStorage = localStorage.getItem('internName') || data.name;

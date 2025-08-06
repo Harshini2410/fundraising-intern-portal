@@ -7,7 +7,7 @@ app.use(cors());
 
 app.get('/api/data', (req, res) => {
   res.json({
-    name: 'Poornima Maharshini',
+    name: 'Poornima harshini',
     referralCode: 'poornima2025',
     totalRaised: 1200, // dummy amount
   });
