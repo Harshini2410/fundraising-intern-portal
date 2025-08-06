@@ -68,7 +68,7 @@ function Dashboard() {
         }}
         style={{
           marginTop: '20px',
-          backgroundColor: 'rgba(226, 11, 0, 1)',
+          backgroundColor: 'rgb(96,25,135)',
           color: 'white',
           border: 'none',
           borderRadius: '6px',
