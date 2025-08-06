@@ -31,6 +31,7 @@ function Login() {
       height: '100vh',
       padding: '20px',
       backgroundColor: '#e0d5e9',
+      backgroundImage: 'url("https://www.transparenttextures.com/patterns/arches.png")'
     }}>
       <h1 style={{ fontSize: '2rem', marginBottom: '20px' }}>Welcome to the Intern Portal</h1>
       <input
